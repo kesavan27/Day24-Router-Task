@@ -1,0 +1,78 @@
+
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.courses-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.course-card {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-image {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.course-details {
+    padding: 20px;
+}
+
+.course-details h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.course-details p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* CyberSecurity component styles */
+
+.cybersecurity-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Home component styles */
+
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* DataScience component styles */
+
+.data-science-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
